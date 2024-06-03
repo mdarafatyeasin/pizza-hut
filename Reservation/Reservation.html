@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-white">
+      <div class="w-4/5 m-auto">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a href="../Menu/Menu.html">Menu</a></li>
+                <li><a>Reservation</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">Pizza Hut</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a href="../Menu/Menu.html">Menu</a></li>
+              <li><a>Reservation</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn" href="../Contact/Contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Reservation Form -->
+    <div class="bg-white p-6 rounded shadow">
+      <h2 class="text-xl font-semibold mb-2">Reservation Form</h2>
+      <form>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            class="input"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            class="input"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Your Phone Number"
+            class="input"
+            required
+          />
+          <input type="date" name="date" class="input" required />
+          <input type="time" name="time" class="input" required />
+          <input
+            type="number"
+            name="guests"
+            placeholder="Number of Guests"
+            class="input"
+            required
+          />
+          <textarea
+            name="special_requests"
+            placeholder="Special Requests"
+            class="input"
+            required
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <!-- Footer section -->
+    <footer class="footer py-6">
+      <div class="container mx-auto flex justify-between items-center">
+        <div>
+          <p>&copy; 2024 Pizza Hut. All rights reserved.</p>
+        </div>
+        <div>
+          <a href="#" class="mx-2">Privacy Policy</a>
+          <a href="#" class="mx-2">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

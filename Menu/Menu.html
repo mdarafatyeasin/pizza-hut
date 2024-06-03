@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="menu.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="bg-white">
+      <div class="w-4/5 m-auto">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a href="../Home/index.html">Home</a></li>
+                <li><a>Menu</a></li>
+                <li><a href="../Reservation/Reservation.html">Reservation</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">Pizza Hut</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a href="../Home/index.html">Home</a></li>
+              <li><a>Menu</a></li>
+              <li><a href="../Reservation/Reservation.html">Reservation</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn" href="../Contact/Contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Menu section -->
+    <div class="Menu">
+      <h1 class="text-center p-6">Grab Your Mill From Here</h1>
+      <div class="menu-card-section w-4/5 m-auto py-6">
+        <!-- cards -->
+        <div class="cards">
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img src="../Assect/p5.jpg" alt="Pepperoni Pizza" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Pepperoni Pizza</h2>
+              <p>Price: $12.99</p>
+              <p>
+                Description: A classic pizza topped with spicy pepperoni slices
+                and melted cheese.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img src="../Assect/p4.jpg" alt="Margherita Pizza" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Margherita Pizza</h2>
+              <p>Price: $10.99</p>
+              <p>
+                Description: A simple yet flavorful pizza topped with tomato
+                sauce, fresh mozzarella, and basil leaves.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img src="../Assect/p3.jpg" alt="Vegetarian Pizza" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Vegetarian Pizza</h2>
+              <p>Price: $11.99</p>
+              <p>
+                Description: A delightful pizza loaded with fresh vegetables
+                like bell peppers, onions, tomatoes, and olives.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img src="../Assect/p1.jpg" alt="Supreme Pizza" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Supreme Pizza</h2>
+              <p>Price: $14.99</p>
+              <p>
+                Description: An indulgent pizza topped with a variety of meats,
+                vegetables, and extra cheese.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img src="../Assect/p2.jpg" alt="BBQ Chicken Pizza" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">BBQ Chicken Pizza</h2>
+              <p>Price: $13.99</p>
+              <p>
+                Description: A savory pizza topped with tender grilled chicken,
+                tangy BBQ sauce, and melted cheese.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer class="footer py-6">
+      <div class="container mx-auto flex justify-between items-center">
+        <div>
+          <p>&copy; 2024 Pizza Hut. All rights reserved.</p>
+        </div>
+        <div>
+          <a href="#" class="mx-2">Privacy Policy</a>
+          <a href="#" class="mx-2">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

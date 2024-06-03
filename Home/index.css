@@ -1,0 +1,27 @@
+.home {
+    background-color: red;
+    background-image: url(../Assect/1734.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.welcome-container {
+    padding: 40px;
+    height: 100%;
+}
+
+.welcome-container div div {
+    background-color: rgba(47, 47, 47, 0.863);
+    border-radius: 15px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
